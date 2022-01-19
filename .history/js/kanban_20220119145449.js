@@ -15,7 +15,7 @@ add_btn.addEventListener('click', () => {
   }
 });
 
-const create_item = () => {
+const create_item = (description) => {
   let item = create_item('div');
   item.classList.add('item');
   item.id = 'item-' + order;
