@@ -19,8 +19,6 @@ const create_item = () => {
   let item = create_item('div');
   item.classList.add('item');
   item.id = 'item-' + order;
-  item.draggable = true;
-  item.addEventListener('dragstart', event => event.dataTransfer.setData('text',))
 };
 
 document.querySelectorAll('.drop').forEach(element => {
